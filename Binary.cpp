@@ -1,7 +1,5 @@
 #include "Binary.h"
 
-
-
 // Takes a ref. of the pointer to the root node and inserts a new node containing data, based on the key's value
 void insert(Node * & p, int key, double data){
   if (p==NULL){
